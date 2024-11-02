@@ -264,3 +264,4 @@ FakesAssemblies/
 LoginAuthenticator.API/Migrations/20241031035705_Initial.cs
 LoginAuthenticator.API/Migrations/20241031035705_Initial.Designer.cs
 LoginAuthenticator.API/Migrations/AppDbContextModelSnapshot.cs
+LoginAuthenticator.Web/README.md

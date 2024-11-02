@@ -39,7 +39,6 @@ namespace LoginAuthenticator.API.Controllers
         
         [AllowAnonymous]
         [HttpPost("register")] 
-        [ProducesResponseType(typeof(AuthResponseDto), StatusCodes.Status200OK)] 
         public async Task<ActionResult<string>> Register(RegisterDto registerDto)
         {
             if (!ModelState.IsValid)

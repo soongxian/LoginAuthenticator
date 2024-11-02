@@ -8,7 +8,7 @@ namespace LoginAuthenticator.API.Dtos
 {
     public class CreateRoleDto
     {
-        [Required(ErrorMessage ="Roll name is required")]
+        [Required(ErrorMessage ="Role name is required")]
         public string RoleName {get; set;} = null!;
     }
 }
